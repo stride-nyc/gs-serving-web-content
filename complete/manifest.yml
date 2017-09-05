@@ -1,0 +1,5 @@
+---
+applications:
+  - name: StrideHelloWorld
+    buildpack: java_buildpack
+    path: build/libs/gs-serving-web-content-0.1.0.jar
