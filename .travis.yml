@@ -4,8 +4,7 @@ jdk:
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAI4NLICP4UD4IMFKA
-  secret_access_key:
-    secure: "GD1Zhe8sVYxIAn3FzGeIF8bneUpjf2noWjE7HsjED/EgXX2BnwqA6Uok9d9+SG5cGoWQpjOssl1uSLQVlVQFml1wSXxRBmXolE9vN/6AS8k3sIiJ3offWxPNpSxXYxsOebRu5NDhGlz30+No7OyADiymir3yjYju412o1wpsDaPGpnwjWqZ7J2KppLaRm0V1QKdKXRogxOYXnevFGoYImlHKbe783EOr0le1TiOehYO4BNs6Aqzoor8zICrC/QXPukIvJ7v5G5ndbkL4PSPNllvgYSP0QiUbmdVvSrpaDCbs6mq+BEfQWIc733Gm2fVNALm54tIC/cgqI4tqgV4i3BMjS5t1dp03thk9pbyT040H8K+9u1V4zSC3lKQo/nmCgsMbEMQZdE5exqcwJ8vxG69/sp0tlCiddlYM12H5clqd1SPTaYcc1bm0avCtZPCAe6btPvaSClxZLQSzWbv6Ybj9Zq6mFK2VqtpP6GFmN/imAWDp6dyalfwclqZpQM4kSGM7Y/rvlsZx9iNc7+mMDO3FccqhxhvKPTHM/Su/QjAxd0mDEtIZ75JySFkAodc//qB9rA72/2D8u6kv2Peefz+2KALT1U8BMVg/fH4+4DvytQlQHD/Fj0IPpdI7Z5GtNkl2RdQ39G7wP8xcWzZ0lRsM4GTxwCCqRD15tEPAoQU="
+  secret_access_key: $SECRET_ACCESS_KEY
   region: "us-east-1"
   app: "Stridehelloworld-env"
   env: "e-hsmtiucyjn"
