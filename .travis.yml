@@ -7,5 +7,5 @@ deploy:
   secret_access_key: $SECRET_ACCESS_KEY
   region: "us-east-1"
   app: "Stridehelloworld"
-  env: "e-hsmtiucyjn"
+  env: "Stridehelloworld-env"
   bucket_name: "elasticbeanstalk-us-east-1-845684498619"
